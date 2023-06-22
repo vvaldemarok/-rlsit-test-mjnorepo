@@ -51,7 +51,7 @@ function Section({children, title}: SectionProps): JSX.Element {
           },
         ]}>
         {children}
-        fix and fix and
+        fix and fix and fix
       </Text>
     </View>
   );
