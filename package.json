@@ -1,0 +1,33 @@
+{
+  "name": "second-test-monorepo",
+  "private": "true",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "first/build": "nx run first-app:android",
+    "second/build": "nx run secondapp:android",
+    "packager/start-fresh": "nx run first-app:packager/start-fresh",
+    "shared/build": "nx run @my-app/shared:build",
+    "refresh/all": "rm -rf node_modules && yarn && nx run first-app:packages/refresh",
+    "android-development/run": "echo 'sho ze teke'",
+	"release": "release-it"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.6.5",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@jscutlery/semver": "3.0.0",
+    "@nx/devkit": "16.3.2",
+    "commitlint": "17.6.5",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.2",
+    "nx": "16.3.2",
+    "release-it": "15.11.0"
+  },
+  "dependencies": {}
+}

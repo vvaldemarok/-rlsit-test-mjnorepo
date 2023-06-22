@@ -1,0 +1,23 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": []
+      }
+    }
+  },
+  "targetDefaults": {
+    "packager/start": {
+      "dependsOn": [
+        "^packager/start"
+      ]
+    },
+	"android-development/run": {
+		"dependsOn": ["^android-development/run"]
+	}
+  },
+  "affected": {
+    "defaultBase": "main"
+  }
+}
