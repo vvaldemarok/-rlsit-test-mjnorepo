@@ -10,6 +10,9 @@
   "@release-it/conventional-changelog": {
     "preset": "conventionalcommits",
     "infile": "CHANGELOG.md"
+  },
+   "hooks": {
+    "after:git:release": "git push origin HEAD"
   }
 }
 }
