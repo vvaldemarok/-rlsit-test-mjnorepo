@@ -1,5 +1,12 @@
 
 
+## [3.2.0](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/compare/3.1.0...3.2.0) (2023-06-22)
+
+
+### Features
+
+* **butter:** tested ([c54604d](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/commit/c54604d2d4ce4ec1c68a54a47286ec391fbbc83c))
+
 # [3.1.0](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/compare/3.0.0...3.1.0) (2023-06-22)
 
 
