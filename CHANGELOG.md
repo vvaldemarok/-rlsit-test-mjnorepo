@@ -1,3 +1,12 @@
+
+
+# [3.1.0](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/compare/3.0.0...3.1.0) (2023-06-22)
+
+
+### Features
+
+* **description:** fixed description ([70a3d98](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/commit/70a3d9879229c2b0c9f892826b00cdb0c04234ae))
+
 # Changelog
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
