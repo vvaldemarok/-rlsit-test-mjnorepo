@@ -1,5 +1,13 @@
 
 
+## [3.3.0](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/compare/3.2.0...3.3.0) (2023-06-23)
+
+
+### Features
+
+* **description:** changed ([452a504](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/commit/452a5047889b6d0f392fe70eb8dda0855827d85c))
+* **tested:** testeed test ([1088dff](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/commit/1088dffc0e362bbfb70b747df88ff314cd5cd85f))
+
 ## [3.2.0](https://github.com/vvaldemarok/-rlsit-test-mjnorepo/compare/3.1.0...3.2.0) (2023-06-22)
 
 
