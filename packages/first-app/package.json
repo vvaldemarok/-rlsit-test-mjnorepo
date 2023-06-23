@@ -20,7 +20,8 @@
     "android/clean": "cd android && ./gradlew clean",
     "__android-development/build": "cd android && ./gradlew assembleDebug",
     "android-development/install": "yarn android/adb-broadcast install -r android/app/build/outputs/apk/debug/app-debug.apk",
-    "android/adb-broadcast": "adb devices | tail -n +2 | cut -sf 1 | xargs -IX adb -s X"
+    "android/adb-broadcast": "adb devices | tail -n +2 | cut -sf 1 | xargs -IX adb -s X",
+	"release": "release-it"
   },
   "dependencies": {
     "@my-app/shared": "0.1.0",
