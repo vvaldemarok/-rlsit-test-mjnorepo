@@ -1,14 +1,11 @@
 {
   "name": "second-test-monorepo",
   "private": "true",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "workspaces": [
-    "packages/*"
+    "packages/first-app"
   ],
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "first/build": "nx run first-app:android",
     "second/build": "nx run secondapp:android",
@@ -30,5 +27,8 @@
     "nx": "16.3.2",
     "release-it": "15.11.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "release-it": {
+    "git": false
+  }
 }
